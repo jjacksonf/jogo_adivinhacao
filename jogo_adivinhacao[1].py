@@ -16,7 +16,7 @@ while True:
     digitadas.append(letra)
 
     if letra in secreto:
-        print(f'ÓTIMO!!!!, a letra "{letra}" existe na palavra secreta.')
+        print(f'ÓTIMO!!!!, a letra "{letra}" EXISTE na palavra secreta.')
     else:
         print(f'que pena!!!!: a letra "{letra}" NÃO EXISTE na palavra secreta.')
         digitadas.pop()
