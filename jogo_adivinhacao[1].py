@@ -1,13 +1,4 @@
-#!/usr/bin/env python
-
-"""
-Listas em Python
-fatiamento
-append, insert, pop, del, clear, extend, +
-min, max
-range
-"""
-secreto = 'perfume'
+secreto = 'jackson'
 digitadas = []
 chances = 3
 
@@ -19,15 +10,15 @@ while True:
     letra = input('Digite uma letra: ')
 
     if len(letra) > 1:
-        print('Ahhh isso não vale, digite apenas uma letra.')
+        print('Inválido!!!! Digite apenas uma letra.')
         continue
 
     digitadas.append(letra)
 
     if letra in secreto:
-        print(f'UHUULLL, a letra "{letra}" existe na palavra secreta.')
+        print(f'ÓTIMO!!!!, a letra "{letra}" existe na palavra secreta.')
     else:
-        print(f'AFFFzzz: a letra "{letra}" NÃO EXISTE na palavra secreta.')
+        print(f'que pena!!!!: a letra "{letra}" NÃO EXISTE na palavra secreta.')
         digitadas.pop()
 
     secreto_temporario = ''
